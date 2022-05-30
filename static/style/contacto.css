@@ -1,0 +1,62 @@
+.redes{
+    margin: 40px;
+    padding: 0px 40px;
+    display: inline-flex;
+    
+}
+
+.redes li img{
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+}
+
+.redes li :hover{
+    width: 90px;
+    height: 90px;
+}
+
+.contacto{
+    margin: 0px;
+    padding: 40px 0px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto h3{
+    font-weight: bold;
+    position: absolute;
+    padding: 0px 70px;
+    font-size: 24px;
+    flex: 1 0 120px;
+    text-decoration: underline;
+}
+
+.contacto form{
+    margin: 40px 0px 20px 50px;
+    flex: 1 0 120px;
+}
+.contacto label{
+    display: block;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    flex: 1 0 220px;
+}
+.contacto input, .contacto textarea{
+    background-color: #f3f1ed;
+    border: #c78c19 solid 1px;
+    width: 300px;
+    display: block;
+    margin: 10px 10px 10px 20px;
+    padding: 10px 140px;
+}
+
+.contacto button{
+    background-color: #f3f1ed;
+    padding: 10px 30px;
+    border: #c78c19 solid 1px;
+    border-radius: 5px;
+    margin: 10px 200px 10px 200px;
+    font-weight: bold;
+}

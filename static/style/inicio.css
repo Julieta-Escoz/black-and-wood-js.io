@@ -1,0 +1,42 @@
+body{
+    background: #BBBBBB;
+    text-align: center;
+}
+
+img{
+    transition: 1s;
+    height: 300px;
+    width: 300px;
+    margin: 150px 150px 30px 150px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 90%;
+    }
+  
+    to {
+      margin-left: 15%;
+    }
+
+
+a :hover{
+    height: 320px;
+    width: 320px;
+}
+.bw{
+    margin: 20px;
+    position: relative;
+}
+
+.bw h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bw h3{
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Productos - Black & Wood</title>
+    <link rel="stylesheet" href="../static\style\reset.css">
+    <link rel="stylesheet" href="../static\style\productos.css">
+    <link rel="stylesheet" href="../static\style\contacto.css">
+    <link rel="stylesheet" href="../static\style\style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="../static/imagenes/b&w_ccexpress.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="redes">
+
+            <! --links en imagenes que te dirigen a las paginas de whatsapp e instagram del negocio-->   
+        <ul class="redes">
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=5491167255492"><img src="../static/imagenes/WhatsApp-Logo2.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/blackandwood_design/?hl=es-la"><img src="../static/imagenes/insta.png" alt=""></a>
+            </li>
+        </ul>
+        </div>
+
+        <div class="contacto">
+            <h3>Contactenos</h3>
+            <form method="" action="" id="formulario" data-form-delete> 
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" data-form-nombre></input>
+    
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" data-form-apellido></input>
+    
+                <label for="mail">Mail</label>
+                <input type="email" name="email" data-form-mail></input>
+    
+                <label for="telefono">Teléfono</label>
+                <input type="text" name="telefono" data-form-telefono></input>
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" name="mensaje" data-form-mensaje></textarea>
+    
+                <button type="submit" id="send" data-form-btn>Enviar Formulario</button>
+            </form>
+        </div>
+        
+
+    </main>
+
+    <footer>
+        <h2>B&W</h2>
+        <p class="copyright">&copy Copyright Black & Wood - 2022</p>
+    </footer>
+
+
+    <script src="../static\js\formulario-script.js"></script>
+</body>
+
+</html>
